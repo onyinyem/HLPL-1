@@ -11,16 +11,18 @@ void f(int a[], int n)
 	for (int i = 0;i < 10;i++)
 		la[i] = ga[i];
 	//printing values
+	std::cout<<"Local array: ";
 	for (int i = 0;i < 10;i++)
 		std::cout<<la[i]<<" ";
 
 	// pointer
 	int* p = new int[n];
-	// copy argumented array
+	// copy argumented arr
 	for (int i = 0;i < 10;i++)
 		p[i] = a[i];
 	// printing
 	std::cout << std::endl;
+	std::cout<<"Pointer array: ";
 	for (int i = 0;i < 10;i++)
 		std::cout << p[i] << " ";
 	std::cout << std::endl;
