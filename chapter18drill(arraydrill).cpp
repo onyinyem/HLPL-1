@@ -16,7 +16,7 @@ void f(int a[], int n)
 
 	// pointer
 	int* p = new int[n];
-	// copy argumented arr
+	// copy argumented array
 	for (int i = 0;i < 10;i++)
 		p[i] = a[i];
 	// printing
